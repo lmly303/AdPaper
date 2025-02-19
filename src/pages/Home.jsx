@@ -27,7 +27,7 @@ export default function Home() {
       
 
       {/* Why AdPaper */}
-      <section className="container mx-auto px-6 py-16 text-center">
+      <section className="container mx-auto px-6 py-16 r">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Left Content */}
           <div>
