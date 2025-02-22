@@ -7,6 +7,8 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Services from './pages/Services.jsx'
 import ContactUs from './pages/ContactUs.jsx'
+import TermsAndConditions from './components/TermsAndConditions.jsx'
+import PrivacyPolicy from './components/PrivatePolicy.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +17,8 @@ const router = createBrowserRouter(
       <Route path='/about' element={<About />}/>
       <Route path='/services' element={<Services />}/>
       <Route path='/contactUs' element={<ContactUs />}/>
+      <Route path='/terms-and-conditions' element={<TermsAndConditions />}/>
+      <Route path='/privacy-policy' element={<PrivacyPolicy />}/>
     </Route>
   )
 )
