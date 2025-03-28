@@ -32,9 +32,9 @@ function ContactUs() {
         <h2 className="text-4xl font-bold text-yellow-400 text-center mb-12">Get in Touch</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           {[
-            { icon: "📍", title: "Our Location", detail: "123 AdPaper Street, New York, USA" },
+            { icon: "📍", title: "Our Location", detail: "Sector-9, Gurugram" },
             { icon: "✉", title: "Email Us", detail: "contact@adpaper.com" },
-            { icon: "📞", title: "Call Us", detail: "+1 234 567 890" },
+            { icon: "📞", title: "Call Us", detail: "+91 7011795790" },
           ].map((info, index) => (
             <AnimatedSection key={index}>
               <div className="bg-gray-50 p-8 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
@@ -96,12 +96,13 @@ function ContactUs() {
         <div className="overflow-hidden rounded-lg shadow-lg">
           <iframe
             className="w-full h-96"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353155042!3d-37.81720974202106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1b3c7e1%3A0x5045675218ce6e0!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1630820915692!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14013.778087579937!2d76.97864885517913!3d28.46133849066037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1782c3cf1cb9%3A0x84ee46ff7143a836!2sSector%209%2C%20Gurugram%2C%20Haryana%20122001%2C%20India!5e0!3m2!1sen!2sin!4v1711898765432"
             allowFullScreen=""
             loading="lazy"
           ></iframe>
         </div>
       </section>
+
     </div>
   );
 }
